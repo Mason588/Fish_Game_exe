@@ -1,0 +1,7 @@
+java.io.FileNotFoundException: Music\Heart_Song_Cut.wav (系統找不到指定的路徑。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at Eat_Fish.MusicPlayer$PlayThread.run(MusicPlayer.java:97)
+Exception in thread "Thread-2" java.lang.NullPointerException
+	at Eat_Fish.MusicPlayer$PlayThread.run(MusicPlayer.java:120)
